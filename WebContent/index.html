@@ -36,9 +36,26 @@ code {
 	font-size : 1.2em;
 	color : #0008099
 }
+
+footer {
+	width: 100%;
+	height : 50px;
+	background-color: #f9f8ee;
+}
 </style>
+<title>jwmoon blog</title>
 </head>
 <body>
+	<header>
+		<h1><a href="#">jwmoon header</a></h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">웹 취약점(3)</a></li>
+			<li><a href="#">클로저 (4)</a></li>
+		</ul>
+	</nav>
+	<section>
 	<h1>유추를 통해 비밀정보 알아내기</h1>
 	<p>
 	1. 테이블명 유추 <br/>
@@ -73,5 +90,7 @@ code {
 	 ') union select 1000, TABLE_NAME, COLUMN_NAME, sysdate(), 0, 'Y' from INFORMATION_SCHEMA.COLUMNS  #
 	 
 	 -->
+	 </section>
+	 <footer>Copyright © 2016 All Rights</footer>
 </body>
 </html>
