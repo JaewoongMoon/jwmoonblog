@@ -4,42 +4,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta charset="utf-8">
+<%@ include file="/WEB-INF/jsp/includes/meta.jsp" %>
 <title><decorator:title/></title>
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/base.v01.css">
+<%@ include file="/WEB-INF/jsp/includes/js.jsp" %>
+<%@ include file="/WEB-INF/jsp/includes/style.jsp" %>
 <decorator:head/>
 </head>
-
 <body>
-<header>
-	<h1><a href="#">문재웅의 블로그</a></h1>
-</header>
-<nav class="nav1">
-		<ul>
-			<li><a href="#">웹 취약점(3)</a></li>
-			<li><a href="#">클로저 (4)</a></li>
-			<li>
-				<ul>
-					<li>SQL 인젝션 </li>
-					
-				</ul>
-			</li>
-		</ul>
-	</nav>
-	<nav class="nav2">
-		<ul>
-			<li><a href="#">웹 취약점(3)</a></li>
-			<li><a href="#">클로저 (4)</a></li>
-			<li>
-				<ul>
-					<li>SQL 인젝션 </li>
-					
-				</ul>
-			</li>
-		</ul>
-	</nav>
+<%@ include file="/WEB-INF/jsp/includes/header.jsp" %>
+<%@ include file="/WEB-INF/jsp/includes/navigation.jsp" %>
+	
 <decorator:body/>
-<footer>Copyright © 2016 All Rights</footer>
+
+<%@ include file="/WEB-INF/jsp/includes/footer.jsp" %>
 </body>
 </html>
