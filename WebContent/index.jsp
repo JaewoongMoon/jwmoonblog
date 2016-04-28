@@ -3,14 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8" />
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/base.v01.css">
 <title>jwmoon blog</title>
 </head>
 <body>
-	<header>
-		<h1><a href="#">문재웅의 블로그</a></h1>
-	</header>
 	
 	<section>
 	<h1>유추를 통해 비밀정보 알아내기</h1>
@@ -48,6 +43,6 @@
 	 
 	 -->
 	 </section>
-	 <footer>Copyright © 2016 All Rights</footer>
+	 
 </body>
 </html>
