@@ -4,7 +4,7 @@
 			<li><a href="#">웹취약점</a></li>
 			<li>
 				<ul>
-					<li><a href="<%=request.getContextPath()%>/html/section/sqlinjection/sqlInjection.html">SQL 인젝션</a></li>
+					<li><a href="<%=request.getContextPath()%>/column/sqlinjection/sqlInjection.jsp">SQL 인젝션</a></li>
 				</ul>
 			</li>
 		</ul>
