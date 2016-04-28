@@ -1,58 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8" />
-<style type="text/css">
-
-.mw-highlight-console {
-	background : #000;
-	color : #fff;
-}
-.mw-highlight {
-	border-left: .5em solid #59b;
-	border-radius: .4em;
-}
-.mw-highlight pre {
-	padding: .4em .6em;
-	line-height: 1.2;
-	font-size: 1.1em;
-	margin : .2em 0;
-}
-pre {
-	font-family: "NanumGothicCoding", Consolas, monospace !important;
-	overflow: visible;
-	white-space : pre-wrap;
-/*
-	border: solid 1px blue;
-	font-size: 1.3 em;
-	color : blue;
-	margin: 10px;
-	padding: 10px;
-	background: #FFFFB3
-	*/
-}
-
-code {
-	font-size : 1.2em;
-	color : #0008099
-}
-
-footer {
-	width: 100%;
-	height : 50px;
-	background-color: #f9f8ee;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/base.v01.css">
 <title>jwmoon blog</title>
 </head>
 <body>
 	<header>
-		<h1><a href="#">jwmoon header</a></h1>
+		<h1><a href="#">문재웅의 블로그</a></h1>
 	</header>
 	<nav>
 		<ul>
 			<li><a href="#">웹 취약점(3)</a></li>
 			<li><a href="#">클로저 (4)</a></li>
+			<li>
+				<ul>
+					<li>SQL 인젝션 </li>
+					
+				</ul>
+			</li>
 		</ul>
 	</nav>
 	<section>
