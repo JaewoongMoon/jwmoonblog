@@ -11,18 +11,7 @@
 	<header>
 		<h1><a href="#">문재웅의 블로그</a></h1>
 	</header>
-	<nav>
-		<ul>
-			<li><a href="#">웹 취약점(3)</a></li>
-			<li><a href="#">클로저 (4)</a></li>
-			<li>
-				<ul>
-					<li>SQL 인젝션 </li>
-					
-				</ul>
-			</li>
-		</ul>
-	</nav>
+	
 	<section>
 	<h1>유추를 통해 비밀정보 알아내기</h1>
 	<p>
