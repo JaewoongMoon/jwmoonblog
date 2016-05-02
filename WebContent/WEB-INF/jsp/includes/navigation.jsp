@@ -1,14 +1,24 @@
 <%@ page language="java" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
 <nav class="nav1">
-		<ul>
-			<li><a href="#">웹취약점</a></li>
-			<li>
+	<div class="outer">
+		<div class="inner">
+			<div class="centered">
+				<div class="jw-left">
 				<ul>
-					<li><a href="<%=request.getContextPath()%>/column/sqlinjection/sqlInjection.jsp">SQL 인젝션</a></li>
+					<li><a href="#">웹취약점</a></li>
+					<li>
+						<ul>
+							<li>
+								<a href="<%=request.getContextPath()%>/journal/security">SQL 인젝션</a>
+							</li>
+						</ul>
+					</li>
 				</ul>
-			</li>
-		</ul>
-	</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
 	<!-- 
 	<nav class="nav2">
 		<ul>

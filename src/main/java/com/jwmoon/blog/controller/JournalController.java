@@ -26,9 +26,9 @@ public class JournalController {
 
 	private static final Logger log = Logger.getLogger(JournalController.class);
 	
-	@RequestMapping("/security")
+	@RequestMapping(value = "/security")
 	public String showTopPage(){
 		log.info("==== 보안 섹션....");
-		return "";
+		return "/journal/security/sqlInjection";
 	}
 }

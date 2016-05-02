@@ -5,7 +5,7 @@
 <html>
 <head>
 <%@ include file="/WEB-INF/jsp/includes/meta.jsp" %>
-<title><decorator:title/></title>
+<title>Web Hacking : <decorator:title/></title>
 <%@ include file="/WEB-INF/jsp/includes/js.jsp" %>
 <%@ include file="/WEB-INF/jsp/includes/style.jsp" %>
 <decorator:head/>
